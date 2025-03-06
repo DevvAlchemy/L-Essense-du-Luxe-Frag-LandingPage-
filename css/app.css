@@ -629,21 +629,19 @@ header {
       color: #000;
   }
   .blog-section {
-      overflow: hidden;
-      margin-bottom: 60px;
-      padding-left: 25px;
+    overflow: hidden;
+    padding: 25px 30px;
+    margin-top: 20px;
   }
   .blog-content {
     float: left;
     width: 55%;
-    padding: 20px 30px 20px 0;
+    padding: 30px 20px;
   }
   .blog-content h3 {
     font-size: 1.8em;
-    margin-bottom: 20px;
     color: #fff;
     border-bottom: 2px solid #f0f;
-    padding-bottom: 10px;
     width: fit-content;
   }
   .blog-date {
@@ -653,13 +651,13 @@ header {
     font-size: 0.9em;
   }
   .blog-image-container {
-    background: #111 ;
     float: right;
     width: 40%;
     height: 300px;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+    margin-top: 25px;
   }
   .blog-image-container img {
     width: 100%;
@@ -672,7 +670,6 @@ header {
     color: #f0f;
     text-decoration: none;
     font-weight: 600;
-    margin-top: 15px;
     transition: color 0.3s ease;
   }
   .read-more:hover {
@@ -839,6 +836,11 @@ footer {
   .newsletter-button:hover {
     background: #ff40ff;
   }
+  h4 {
+    margin-top: 25px; 
+    font-size: 1.1em; 
+    color: #ddd;
+  }
   .footer-bottom {
     width: 100%;
     text-align: center;
@@ -856,7 +858,7 @@ footer {
   .payment-icon {
     width: 50px;
     height: 30px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(14, 44, 213, 0.64);
     border-radius: 4px;
     margin: 0 5px;
     display: flex;
